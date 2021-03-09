@@ -1,0 +1,231 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.bodymap-title {
+    padding: 30px 80px 0px 80px;
+}
+
+@media (max-width:768px) {
+    .bodymap-title {
+        padding: 30px 25px 0px 25px;
+    }
+}
+
+.align-items-start {
+    margin: 20px auto;
+    background-color: #F5FBFC;
+    padding: 30px;
+    border-radius: 30px;
+    width: 90%;
+    background-image: url(./img/人體地圖背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #e4f8fc;
+}
+
+@media (max-width:1400px) {
+    .align-items-start {
+        background-image: url(./img/人體地圖背景\ –\ 1.png);
+        background-size: contain;
+    }
+}
+
+@media (max-width:992px) {
+    .align-items-start {
+        background-image: none;
+    }
+}
+
+@media (max-width:768px) {
+    .align-items-start {
+        width: 100%;
+    }
+}
+
+.nav {
+    background-image: url(./img/人體地圖.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 600px;
+}
+
+@media (max-width:768px) {
+    .nav {
+        width: 100%;
+    }
+}
+
+.nav-pills .nav-link {
+    height: 120px;
+    width: 300px;
+}
+
+@media (max-width:768px) {
+    .nav-pills .nav-link {
+        width: 100%;
+    }
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.tab-content {
+    text-align: center;
+}
+
+.blue-btn {
+    color: #fff;
+    background-color: #5E9FCF;
+    border: 2px;
+    border-style: solid;
+    border-color: #5E9FCF;
+    border-radius: 14px;
+    font-size: 14px;
+    padding: 8px 8px;
+    margin: 3px;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.blue-btn:hover {
+    color: #5E9FCF;
+    border-color: #5E9FCF;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+
+.red-btn {
+    color: #fff;
+    background-color: #E07379;
+    border: 2px;
+    border-style: solid;
+    border-color: #E07379;
+    border-radius: 14px;
+    font-size: 14px;
+    padding: 8px 8px;
+    margin: 3px;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.red-btn:hover {
+    color: #E07379;
+    border-color: #E07379;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+
+.yellow-btn {
+    color: #fff;
+    background-color: #F1AA4B;
+    border: 2px;
+    border-style: solid;
+    border-color: #F1AA4B;
+    border-radius: 14px;
+    font-size: 14px;
+    padding: 8px 8px;
+    margin: 3px;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.yellow-btn:hover {
+    color: #F1AA4B;
+    border-color: #F1AA4B;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+
+.green-btn {
+    color: #fff;
+    background-color: #6EA697;
+    border: 2px;
+    border-style: solid;
+    border-color: #6EA697;
+    border-radius: 14px;
+    font-size: 14px;
+    padding: 8px 8px;
+    margin: 3px;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.green-btn:hover {
+    color: #6EA697;
+    border-color: #6EA697;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+
+.purple-btn {
+    color: #fff;
+    background-color: #93669D;
+    border: 2px;
+    border-style: solid;
+    border-color: #93669D;
+    border-radius: 14px;
+    font-size: 14px;
+    padding: 8px 8px;
+    margin: 3px;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.purple-btn:hover {
+    color: #93669D;
+    border-color: #93669D;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+
+.gray-btn {
+    color: #fff;
+    background-color: #C5C5C5;
+    border: 2px;
+    border-style: solid;
+    border-color: #C5C5C5;
+    border-radius: 14px;
+    font-size: 14px;
+    padding: 8px 8px;
+    margin: 3px;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.gray-btn:hover {
+    color: #C5C5C5;
+    border-color: #C5C5C5;
+    background-color: rgba(256, 256, 256, 0.9);
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+    .tab-pane img {
+        display: none;
+    }
+    .heho-body-map {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+.nav-link span {
+    color: #5c5c5c;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+}
+
+.nav-link span:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
