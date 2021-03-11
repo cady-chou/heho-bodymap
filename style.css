@@ -1,211 +1,247 @@
-        .container {
-            max-width: 1080px;
-            margin: 0 auto;
-        }
-        
-        .bodymap-title {
-            padding: 30px 80px 0px 80px;
-        }
-        
-        @media (max-width:768px) {
-            .bodymap-title {
-                padding: 30px 25px 0px 25px;
-            }
-        }
-        
-        .align-items-start {
-            margin: 20px auto;
-            background-color: #F5FBFC;
-            padding: 30px;
-            border-radius: 30px;
-            width: 90%;
-            background-image: url(./img/人體地圖背景.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            border: 5px solid #e4f8fc;
-        }
-        
-        @media (max-width:1400px) {
-            .align-items-start {
-                background-image: url(./img/人體地圖背景\ –\ 1.png);
-                background-size: contain;
-            }
-        }
-        
-        @media (max-width:992px) {
-            .align-items-start {
-                background-image: none;
-            }
-        }
-        
-        @media (max-width:768px) {
-            .align-items-start {
-                width: 100%;
-            }
-        }
-        
-        .nav {
-            background-image: url(./img/人體地圖.png);
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 300px;
-            height: 600px;
-        }
-        
-        @media (max-width:768px) {
-            .nav {
-                width: 100%;
-            }
-        }
-        
-        .nav-pills .nav-link {
-            height: 120px;
-            width: 300px;
-        }
-        
-        @media (max-width:768px) {
-            .nav-pills .nav-link {
-                width: 100%;
-            }
-        }
-        
-        .nav-pills .nav-link.active {
-            background-color: rgba(0, 0, 0, 0) !important;
-        }
-        
-        .tab-content {
-            text-align: center;
-        }
-        /* -------------------btn-start-------------------- */
-        
-        .body-btn {
-            border: 2px;
-            border-style: solid;
-            border-radius: 14px;
-            font-size: 14px;
-            width: 100%;
-            margin: 3px;
-            line-height: 1;
-            display: inline-block;
-            text-decoration: none;
-            text-align: left;
-            padding: 10px;
-        }
-        
-        .body-btn .col-1-3 {
-            text-align: center;
-        }
-        
-        .blue-btn {
-            color: #fff;
-            background-color: #5E9FCF;
-            border-color: #5E9FCF;
-        }
-        
-        .tab-pane {
-            text-align: center;
-        }
-        
-        .blue-btn:hover {
-            color: #5E9FCF;
-            border-color: #5E9FCF;
-            background-color: rgba(256, 256, 256, 0.9);
-        }
-        
-        .red-btn {
-            color: #fff;
-            background-color: #E07379;
-            border-color: #E07379;
-        }
-        
-        .red-btn:hover {
-            color: #E07379;
-            border-color: #E07379;
-            background-color: rgba(256, 256, 256, 0.9);
-        }
-        
-        .yellow-btn {
-            color: #fff;
-            background-color: #F1AA4B;
-            border-color: #F1AA4B;
-        }
-        
-        .yellow-btn:hover {
-            color: #F1AA4B;
-            border-color: #F1AA4B;
-            background-color: rgba(256, 256, 256, 0.9);
-        }
-        
-        .green-btn {
-            color: #fff;
-            background-color: #6EA697;
-            border-color: #6EA697;
-        }
-        
-        .green-btn:hover {
-            color: #6EA697;
-            border-color: #6EA697;
-            background-color: rgba(256, 256, 256, 0.9);
-        }
-        
-        .purple-btn {
-            color: #fff;
-            background-color: #93669D;
-            border-color: #93669D;
-        }
-        
-        .purple-btn:hover {
-            color: #93669D;
-            border-color: #93669D;
-            background-color: rgba(256, 256, 256, 0.9);
-        }
-        
-        .gray-btn {
-            color: #333333;
-            background-color: #e7e7e7;
-            border-color: #e7e7e7;
-        }
-        
-        .gray-btn:hover {
-            color: #C5C5C5;
-            border-color: #e9e9e9;
-            background-color: rgba(256, 256, 256, 0.9);
-        }
-        
-        .col-1-3 {
-            width: 33.33333333% !important;
-        }
-        
-        .col-2-3 {
-            width: 66.66666667% !important;
-        }
-        
-        .disease-content {
-            line-height: 18px;
-            padding-top: 6px;
-        }
-        /* -------------------btn-end-------------------- */
-        
-        .mt-20 {
-            margin-top: 20px;
-        }
-        
-        @media (max-width:768px) {
-            .heho-body-map {
-                width: 100%;
-                margin-top: 30px;
-            }
-        }
-        
-        .nav-link span {
-            color: #5c5c5c;
-            padding: 10px 20px;
-            background-color: rgba(255, 255, 255, 0.5);
-            border-radius: 16px;
-        }
-        
-        .nav-link span:hover {
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.3);
-        }
+                .container {
+                    max-width: 1080px;
+                    margin: 0 auto;
+                }
+                
+                @media (max-width: 992px) {
+                    .container,
+                    .container-sm {
+                        max-width: 900px !important;
+                    }
+                }
+                
+                .bodymap-title {
+                    padding: 30px 80px 0px 80px;
+                }
+                
+                @media (max-width:768px) {
+                    .bodymap-title {
+                        padding: 30px 25px 0px 25px;
+                    }
+                }
+                
+                .align-items-start {
+                    margin: 20px auto;
+                    background-color: #F5FBFC;
+                    padding: 30px;
+                    border-radius: 30px;
+                    width: 90%;
+                    border: 5px solid #e4f8fc;
+                }
+                
+                @media (max-width:992px) {
+                    .align-items-start {
+                        background-image: none;
+                    }
+                }
+                
+                @media (max-width:768px) {
+                    .align-items-start {
+                        width: 100%;
+                    }
+                }
+                
+                .nav {
+                    background-image: url(./img/人體地圖.png);
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 500px;
+                    height: 550px;
+                }
+                
+                @media (max-width:1200px) {
+                    .nav {
+                        width: 400px;
+                    }
+                }
+                
+                @media (max-width:992px) {
+                    .nav {
+                        width: 260px;
+                    }
+                }
+                
+                @media (max-width:768px) {
+                    .nav {
+                        width: 100%;
+                    }
+                }
+                
+                .nav-pills .nav-link {
+                    height: 110px;
+                    width: 500px;
+                }
+                
+                @media (max-width:1200px) {
+                    .nav-pills .nav-link {
+                        width: 400px;
+                    }
+                }
+                
+                @media (max-width:992px) {
+                    .nav-pills .nav-link {
+                        width: 260px;
+                    }
+                }
+                
+                @media (max-width:768px) {
+                    .nav-pills .nav-link {
+                        width: 100%;
+                    }
+                }
+                
+                .nav-pills .nav-link.active {
+                    background-color: rgba(0, 0, 0, 0) !important;
+                }
+                
+                .tab-content {
+                    text-align: center;
+                }
+                /* -------------------btn-start-------------------- */
+                
+                .body-btn {
+                    border: 2px;
+                    border-style: solid;
+                    border-radius: 14px;
+                    font-size: 14px;
+                    width: 100%;
+                    margin: 3px;
+                    line-height: 1;
+                    display: inline-block;
+                    text-decoration: none;
+                    text-align: left;
+                    padding: 10px;
+                }
+                
+                .body-btn .col-1-3 {
+                    text-align: center;
+                }
+                
+                .blue-btn {
+                    color: #333333;
+                    background-color: #C5E7F5;
+                    border-color: #96C3E5;
+                }
+                
+                .tab-pane {
+                    text-align: center;
+                }
+                
+                .blue-btn:hover {
+                    color: #333333;
+                    border-color: #5E9FCF;
+                    background-color: #74C2E2;
+                }
+                
+                .red-btn {
+                    color: #333;
+                    background-color: #EDB8B9;
+                    border-color: #E09899;
+                }
+                
+                .red-btn:hover {
+                    color: #333;
+                    border-color: #E07379;
+                    background-color: #EB8E8F;
+                }
+                
+                .yellow-btn {
+                    color: #333;
+                    background-color: #F0D494;
+                    border-color: #E2B577;
+                }
+                
+                .yellow-btn:hover {
+                    color: #333;
+                    border-color: #F0B93C;
+                    background-color: #F4CC5F;
+                }
+                
+                .green-btn {
+                    color: #333;
+                    background-color: #A8D5B5;
+                    border-color: #79B294;
+                }
+                
+                .green-btn:hover {
+                    color: #333;
+                    border-color: #4F9F75;
+                    background-color: #6BC395;
+                }
+                
+                .purple-btn {
+                    color: #333;
+                    background-color: #BFA0CC;
+                    border-color: #A481B4;
+                }
+                
+                .purple-btn:hover {
+                    color: #333;
+                    border-color: #93669D;
+                    background-color: #AA7ABE;
+                }
+                
+                .gray-btn {
+                    color: #333333;
+                    background-color: #e7e7e7;
+                    border-color: #e7e7e7;
+                }
+                
+                .gray-btn:hover {
+                    color: #fff;
+                    border-color: #7e7e7e;
+                    background-color: #838383;
+                }
+                
+                .disease-content {
+                    line-height: 18px;
+                    padding-top: 6px;
+                    padding-right: 16px !important;
+                }
+                
+                @media (max-width:768px) {
+                    .disease-content {
+                        padding-right: 10px !important;
+                    }
+                }
+                /* -------------------btn-end-------------------- */
+                
+                .mt-20 {
+                    margin-top: 20px;
+                }
+                
+                @media (max-width:768px) {
+                    .heho-body-map {
+                        width: 100%;
+                        margin-top: 30px;
+                    }
+                }
+                
+                .nav-link span {
+                    color: #5c5c5c;
+                    padding: 10px 20px;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    border-radius: 16px;
+                }
+                
+                .nav-link span:hover {
+                    color: #fff;
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+                
+                .body-message {
+                    position: fixed;
+                    bottom: 50px;
+                    right: 50px;
+                    z-index: 99;
+                    width: 140px;
+                }
+                
+                @media (max-width:768px) {
+                    .body-message {
+                        bottom: 10px;
+                        right: 10px;
+                        width: 110px;
+                    }
+                }
