@@ -1,3 +1,16 @@
+                .navbar {
+                    background-color: #566f31;
+                }
+                
+                .container-fluid {
+                    max-width: 1160px;
+                    margin: 0 auto;
+                }
+                
+                .navbar img {
+                    height: 60px;
+                }
+                
                 .container {
                     max-width: 1080px;
                     margin: 0 auto;
@@ -232,7 +245,7 @@
                 
                 .body-message {
                     position: fixed;
-                    bottom: 50px;
+                    bottom: 30px;
                     right: 50px;
                     z-index: 99;
                     width: 140px;
@@ -244,4 +257,24 @@
                         right: 10px;
                         width: 110px;
                     }
+                }
+                
+                .footer {
+                    background-color: #F5F5F7;
+                    height: 100%;
+                    padding: 30px 0px 20px 0px;
+                    margin-top: 50px;
+                }
+                
+                .footer .row {
+                    max-width: 1160px;
+                    margin: 0 auto;
+                }
+                
+                .footer ul {
+                    padding-left: 0px;
+                }
+                
+                .footer li {
+                    list-style: none;
                 }
